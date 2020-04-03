@@ -1,0 +1,3169 @@
+{
+  "SaveName": "My First Stone Age",
+  "GameMode": "My First Stone Age",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "4/2/2020 8:06:02 PM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Forest",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -15.1108065,
+          "posY": 4.83661366,
+          "posZ": -20.1076221,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7762289,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -30.2150211,
+          "posY": 4.83661366,
+          "posZ": 10.17524,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6841526,
+          "scaleY": 9.174497,
+          "scaleZ": 4.936106
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 30.25128,
+          "posY": 4.83661366,
+          "posZ": 9.59069252,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.684145,
+          "scaleY": 9.174497,
+          "scaleZ": 4.936106
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 15.4749184,
+          "posY": 4.83661366,
+          "posZ": 19.8365288,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 11.8084354,
+          "scaleY": 9.174497,
+          "scaleZ": 4.88927555
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 15.1961479,
+          "posY": 4.83661366,
+          "posZ": -20.1400986,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7762156,
+          "scaleY": 9.17449951,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -15.1927767,
+          "posY": 4.83661366,
+          "posZ": 19.787817,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7762156,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 30.10358,
+          "posY": 4.83661366,
+          "posZ": -8.449126,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6841421,
+          "scaleY": 9.174497,
+          "scaleZ": 4.936106
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -30.247818,
+          "posY": 4.83661366,
+          "posZ": -8.822588,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6841564,
+          "scaleY": 9.174497,
+          "scaleZ": 4.936106
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "ObjectStates": [
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": -24.9747753,
+        "posY": 0.6824454,
+        "posZ": -15.1415749,
+        "rotX": 5.544527E-06,
+        "rotY": -0.000151298023,
+        "rotZ": 1.33734886E-06,
+        "scaleX": 1.49999964,
+        "scaleY": 1.49999964,
+        "scaleZ": 1.49999964
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7058823,
+        "g": 0.366520882,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Number": 0,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d71bed"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 24.9897633,
+        "posY": 0.654690862,
+        "posZ": -15.2461224,
+        "rotX": -3.39341022E-06,
+        "rotY": 0.0006048786,
+        "rotZ": -1.16228387E-06,
+        "scaleX": 1.6499995,
+        "scaleY": 1.6499995,
+        "scaleZ": 1.6499995
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7058823,
+        "g": 0.366520882,
+        "b": 0.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 23.3358765,
+            "posY": 4.257057,
+            "posZ": -14.55675,
+            "rotX": 357.946136,
+            "rotY": 180.053589,
+            "rotZ": 175.465439,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-4.png",
+            "ImageSecondaryURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-back-token.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.2,
+              "Stackable": true,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b5a0d5"
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 23.6830425,
+            "posY": 4.55856752,
+            "posZ": -15.5763807,
+            "rotX": 0.0395516977,
+            "rotY": 180.03064,
+            "rotZ": 179.80188,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-berry-token.png",
+            "ImageSecondaryURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-back-token.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.2,
+              "Stackable": true,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b72f47"
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 23.7481213,
+            "posY": 4.500704,
+            "posZ": -16.1691532,
+            "rotX": 359.925568,
+            "rotY": 90.00475,
+            "rotZ": 179.951721,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-arrow-token.png",
+            "ImageSecondaryURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-back-token.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.2,
+              "Stackable": true,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "20bff5"
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 25.3396111,
+            "posY": 4.3560586,
+            "posZ": -16.1209126,
+            "rotX": 29.1100063,
+            "rotY": 179.945068,
+            "rotZ": 180.722824,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-3.png",
+            "ImageSecondaryURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-back-token.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.2,
+              "Stackable": true,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "d3d0bc"
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 24.145689,
+            "posY": 4.53920126,
+            "posZ": -15.1532507,
+            "rotX": 359.5869,
+            "rotY": 180.019211,
+            "rotZ": 177.067429,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-trading-token.png",
+            "ImageSecondaryURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-back-token.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.2,
+              "Stackable": true,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "01faf5"
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 24.4623756,
+            "posY": 4.576135,
+            "posZ": -14.9937859,
+            "rotX": 358.72287,
+            "rotY": 90.00586,
+            "rotZ": 180.617508,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-dog-token.png",
+            "ImageSecondaryURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-back-token.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.2,
+              "Stackable": true,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "9b43b9"
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 23.73214,
+            "posY": 4.513625,
+            "posZ": -15.6177311,
+            "rotX": 0.617437541,
+            "rotY": 179.9892,
+            "rotZ": 177.600937,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-fish-token.png",
+            "ImageSecondaryURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-back-token.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.2,
+              "Stackable": true,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f3ecdb"
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 20.8161964,
+            "posY": 4.502496,
+            "posZ": -15.5775337,
+            "rotX": -3.76207481E-07,
+            "rotY": 270.0169,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-pot-token.png",
+            "ImageSecondaryURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-back-token.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.2,
+              "Stackable": true,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b42335"
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 20.5278358,
+            "posY": 4.502496,
+            "posZ": -13.1171875,
+            "rotX": 6.203354E-08,
+            "rotY": 180.0249,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-tooth-token.png",
+            "ImageSecondaryURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-back-token.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.2,
+              "Stackable": true,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "6fa897"
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 23.465004,
+            "posY": 4.507253,
+            "posZ": -15.4171228,
+            "rotX": 8.65789445E-07,
+            "rotY": 179.996,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-hut-token.png",
+            "ImageSecondaryURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-back-token.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.2,
+              "Stackable": true,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f17cd9"
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 24.2666759,
+            "posY": 4.77361965,
+            "posZ": -13.0354586,
+            "rotX": 16.0537186,
+            "rotY": 180.045074,
+            "rotZ": 180.014832,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-6.png",
+            "ImageSecondaryURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-back-token.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.2,
+              "Stackable": true,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "4bcb18"
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 20.4545116,
+            "posY": 4.507253,
+            "posZ": -15.9870787,
+            "rotX": 8.709346E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-2.png",
+            "ImageSecondaryURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-back-token.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.2,
+              "Stackable": true,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "5bd8d0"
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 20.1348286,
+            "posY": 4.507253,
+            "posZ": -13.5106592,
+            "rotX": 2.49134757E-07,
+            "rotY": 180.011215,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-5.png",
+            "ImageSecondaryURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-back-token.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.2,
+              "Stackable": true,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "52e90d"
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": 17.7104549,
+            "posY": 4.507253,
+            "posZ": -13.411603,
+            "rotX": 5.7963117E-08,
+            "rotY": 179.991867,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-1.png",
+            "ImageSecondaryURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-back-token.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.2,
+              "Stackable": true,
+              "Stretch": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "0ccfa3"
+        }
+      ],
+      "GUID": "99ede8"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 26.087286,
+        "posY": 1.05999982,
+        "posZ": -5.132429,
+        "rotX": -4.90685125E-06,
+        "rotY": 179.990356,
+        "rotZ": 7.4872305E-06,
+        "scaleX": 0.47075966,
+        "scaleY": 1.0,
+        "scaleZ": 0.47075966
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/arrow.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "dab416"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 23.0725555,
+        "posY": 1.06000018,
+        "posZ": -5.66806459,
+        "rotX": 1.68877832E-05,
+        "rotY": 179.990463,
+        "rotZ": 1.10456112E-05,
+        "scaleX": 0.47075966,
+        "scaleY": 1.0,
+        "scaleZ": 0.47075966
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/arrow.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "100097"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 22.003767,
+        "posY": 1.05999982,
+        "posZ": -4.692072,
+        "rotX": 5.03947876E-06,
+        "rotY": 179.993484,
+        "rotZ": -2.62749325E-07,
+        "scaleX": 0.47075966,
+        "scaleY": 1.0,
+        "scaleZ": 0.47075966
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/arrow.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "005eaa"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 24.6613541,
+        "posY": 1.06000006,
+        "posZ": -5.49473524,
+        "rotX": -6.17064529E-07,
+        "rotY": 179.990677,
+        "rotZ": -1.96936026E-06,
+        "scaleX": 0.47075966,
+        "scaleY": 1.0,
+        "scaleZ": 0.47075966
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/arrow.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "7c7f6c"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 25.7116566,
+        "posY": 1.15875554,
+        "posZ": -8.975943,
+        "rotX": 1.81939959E-06,
+        "rotY": 180.0,
+        "rotZ": -6.060059E-06,
+        "scaleX": 0.451448023,
+        "scaleY": 1.0,
+        "scaleZ": 0.451448023
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/fish.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.397511452,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4d1d5f"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 23.51035,
+        "posY": 1.15875578,
+        "posZ": -9.979343,
+        "rotX": -9.059278E-09,
+        "rotY": 180.0001,
+        "rotZ": -8.873826E-06,
+        "scaleX": 0.451448023,
+        "scaleY": 1.0,
+        "scaleZ": 0.451448023
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/fish.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.397511452,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "44d4dc"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 25.8111343,
+        "posY": 1.15875578,
+        "posZ": -10.3539343,
+        "rotX": -7.288719E-06,
+        "rotY": 180.000336,
+        "rotZ": -5.488372E-06,
+        "scaleX": 0.451448023,
+        "scaleY": 1.0,
+        "scaleZ": 0.451448023
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/fish.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.397511452,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ab8a24"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 23.3810539,
+        "posY": 1.15875578,
+        "posZ": -8.798788,
+        "rotX": 1.7346847E-05,
+        "rotY": 179.997711,
+        "rotZ": -2.679144E-06,
+        "scaleX": 0.451448023,
+        "scaleY": 1.0,
+        "scaleZ": 0.451448023
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/fish.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.397511452,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "906e33"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 26.4932,
+        "posY": 1.16135406,
+        "posZ": 4.40674162,
+        "rotX": 1.62167794E-06,
+        "rotY": 179.980072,
+        "rotZ": 180.0,
+        "scaleX": 0.452574432,
+        "scaleY": 1.0,
+        "scaleZ": 0.452574432
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/pot.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.402708441,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "168b73"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 24.5670528,
+        "posY": 1.16135418,
+        "posZ": 4.23947525,
+        "rotX": 8.529468E-06,
+        "rotY": 179.979935,
+        "rotZ": 180.0,
+        "scaleX": 0.452574432,
+        "scaleY": 1.0,
+        "scaleZ": 0.452574432
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/pot.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.402708441,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d9965b"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 23.9938564,
+        "posY": 1.16135406,
+        "posZ": 1.97441089,
+        "rotX": -1.10915281E-07,
+        "rotY": 179.979767,
+        "rotZ": 180.0,
+        "scaleX": 0.452574432,
+        "scaleY": 1.0,
+        "scaleZ": 0.452574432
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/pot.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.402708441,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d9dcd8"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 26.0146313,
+        "posY": 1.16135406,
+        "posZ": 2.48934412,
+        "rotX": 1.87970011E-06,
+        "rotY": 179.981644,
+        "rotZ": 180.0,
+        "scaleX": 0.452574432,
+        "scaleY": 1.0,
+        "scaleZ": 0.452574432
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/pot.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.402708441,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "8a65af"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 26.8583755,
+        "posY": 1.15875542,
+        "posZ": 7.20959759,
+        "rotX": 5.252554E-06,
+        "rotY": 180.000336,
+        "rotZ": -5.26868644E-06,
+        "scaleX": 0.383584052,
+        "scaleY": 1.0,
+        "scaleZ": 0.383584052
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tooth.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.397511,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "55fd0a"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 24.22531,
+        "posY": 1.15875542,
+        "posZ": 7.51473045,
+        "rotX": 8.40444E-07,
+        "rotY": 180.0003,
+        "rotZ": 4.42223654E-06,
+        "scaleX": 0.383584052,
+        "scaleY": 1.0,
+        "scaleZ": 0.383584052
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tooth.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.397511,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f32ac9"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 22.87733,
+        "posY": 1.15875578,
+        "posZ": 7.075416,
+        "rotX": -5.72109E-06,
+        "rotY": 180.0003,
+        "rotZ": 7.812284E-06,
+        "scaleX": 0.383584052,
+        "scaleY": 1.0,
+        "scaleZ": 0.383584052
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tooth.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.397511,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "8ddb19"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 25.2126141,
+        "posY": 1.1587553,
+        "posZ": 6.84065866,
+        "rotX": -8.243858E-06,
+        "rotY": 180.0019,
+        "rotZ": 4.68544471E-07,
+        "scaleX": 0.383584052,
+        "scaleY": 1.0,
+        "scaleZ": 0.383584052
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tooth.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.397511,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "0432d6"
+    },
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": 6.327336E-19,
+        "posY": 0.9220247,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7867647,
+        "g": 0.7867647,
+        "b": 0.7867647
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/board.jpg",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 1.41448927
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a6c37b",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 6.782593,
+            "y": 0.5922429,
+            "z": 4.40908575
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 1.87271067E-11,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 3.99324322,
+            "y": 0.5922428,
+            "z": 4.96763325
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 1.87271067E-11,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 1.1716938,
+            "y": 0.5922428,
+            "z": 5.34477
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 1.87271067E-11,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 7.200449,
+            "y": 0.592243135,
+            "z": -0.9951922
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 1.87271067E-11,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 7.16794062,
+            "y": 0.592243969,
+            "z": 0.7037226
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 1.87271067E-11,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 26.1691,
+        "posY": 1.1587553,
+        "posZ": -0.796357751,
+        "rotX": 6.138978E-07,
+        "rotY": 180.012665,
+        "rotZ": -6.1926853E-06,
+        "scaleX": 0.47075966,
+        "scaleY": 1.0,
+        "scaleZ": 0.47075966
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/berry.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.397510827,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "060414"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 23.8800755,
+        "posY": 1.15875554,
+        "posZ": -2.159594,
+        "rotX": 1.13096221E-05,
+        "rotY": 180.013092,
+        "rotZ": -2.217768E-06,
+        "scaleX": 0.47075966,
+        "scaleY": 1.0,
+        "scaleZ": 0.47075966
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/berry.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.397510827,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "462d12"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 24.3596535,
+        "posY": 1.15875518,
+        "posZ": -0.5014185,
+        "rotX": 6.011603E-07,
+        "rotY": 179.640015,
+        "rotZ": 3.91906042E-06,
+        "scaleX": 0.47075966,
+        "scaleY": 1.0,
+        "scaleZ": 0.47075966
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/berry.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.397510827,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5ff7ed"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 25.8876419,
+        "posY": 1.15875566,
+        "posZ": -2.61378026,
+        "rotX": -2.485839E-06,
+        "rotY": 180.012085,
+        "rotZ": 2.03961076E-06,
+        "scaleX": 0.47075966,
+        "scaleY": 1.0,
+        "scaleZ": 0.47075966
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/berry.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.397510827,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "2b3471"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 25.1621075,
+        "posY": 1.06,
+        "posZ": 10.3949852,
+        "rotX": -1.09000337E-06,
+        "rotY": 180.000046,
+        "rotZ": 1.97609188E-06,
+        "scaleX": 0.6283955,
+        "scaleY": 1.0,
+        "scaleZ": 0.6283955
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-dog-rectangle.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "810548"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 25.031189,
+        "posY": 1.06,
+        "posZ": 12.9218445,
+        "rotX": 4.46835247E-06,
+        "rotY": 180.000046,
+        "rotZ": 1.14048987E-06,
+        "scaleX": 0.6283955,
+        "scaleY": 1.0,
+        "scaleZ": 0.6283955
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-dog-rectangle.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d75ad6"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 20.474329,
+        "posY": 0.9599999,
+        "posZ": -15.6589947,
+        "rotX": 8.02898967E-07,
+        "rotY": 180.0,
+        "rotZ": -6.035744E-07,
+        "scaleX": 1.70316041,
+        "scaleY": 1.0,
+        "scaleZ": 1.70316041
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-back-token.png",
+        "ImageSecondaryURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-back-token.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.2,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ad615b"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 16.3102665,
+        "posY": 1.45999992,
+        "posZ": -16.63386,
+        "rotX": -8.23627545E-07,
+        "rotY": 179.9832,
+        "rotZ": -4.734787E-06,
+        "scaleX": 0.508209646,
+        "scaleY": 1.0,
+        "scaleZ": 0.508209646
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-green.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 1.0,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "66cd04"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 16.1131172,
+        "posY": 1.45999992,
+        "posZ": -14.0270967,
+        "rotX": 3.82861778E-08,
+        "rotY": 180.000092,
+        "rotZ": -2.7106276E-07,
+        "scaleX": 0.508209646,
+        "scaleY": 1.0,
+        "scaleZ": 0.508209646
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-yellow.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 1.0,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e05201"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 14.0331059,
+        "posY": 1.45999992,
+        "posZ": -16.6274452,
+        "rotX": -3.837164E-06,
+        "rotY": 180.003922,
+        "rotZ": -4.19526941E-07,
+        "scaleX": 0.508209646,
+        "scaleY": 1.0,
+        "scaleZ": 0.508209646
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-blue.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 1.0,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "924eff"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 14.07076,
+        "posY": 1.46,
+        "posZ": -14.1133165,
+        "rotX": 5.567865E-07,
+        "rotY": 180.000031,
+        "rotZ": 1.97931922E-06,
+        "scaleX": 0.508209646,
+        "scaleY": 1.0,
+        "scaleZ": 0.508209646
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/tokens/mfs-pink.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 1.0,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a6f208"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -24.6782455,
+        "posY": 1.05988657,
+        "posZ": -9.584742,
+        "rotX": -0.00302872434,
+        "rotY": 180.0255,
+        "rotZ": 359.992218,
+        "scaleX": 1.31135309,
+        "scaleY": 1.0,
+        "scaleZ": 1.31135309
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/huts/mfs-hut-1.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b1da77"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -24.6783543,
+        "posY": 1.25640333,
+        "posZ": -9.584716,
+        "rotX": -0.00100113044,
+        "rotY": 180.024323,
+        "rotZ": 359.99408,
+        "scaleX": 1.31135309,
+        "scaleY": 1.0,
+        "scaleZ": 1.31135309
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/huts/mfs-hut-2.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "74cb87"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -24.6708183,
+        "posY": 1.45032656,
+        "posZ": -9.5849905,
+        "rotX": 0.04846411,
+        "rotY": 180.041458,
+        "rotZ": 0.00980228651,
+        "scaleX": 1.31135309,
+        "scaleY": 1.0,
+        "scaleZ": 1.31135309
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/huts/mfs-hut-3.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f3419c"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -24.6703911,
+        "posY": 1.65028155,
+        "posZ": -9.584767,
+        "rotX": 0.07940928,
+        "rotY": 179.97142,
+        "rotZ": 0.0115354275,
+        "scaleX": 1.31135309,
+        "scaleY": 1.0,
+        "scaleZ": 1.31135309
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/huts/mfs-hut-4.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "71b031"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -24.6703568,
+        "posY": 1.84592128,
+        "posZ": -9.585019,
+        "rotX": 0.07270074,
+        "rotY": 179.9649,
+        "rotZ": 0.0291746464,
+        "scaleX": 1.31135309,
+        "scaleY": 1.0,
+        "scaleZ": 1.31135309
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/huts/mfs-hut-5.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "784a75"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -24.69068,
+        "posY": 2.83346415,
+        "posZ": -9.57306,
+        "rotX": 0.08330488,
+        "rotY": 179.761276,
+        "rotZ": 359.8111,
+        "scaleX": 1.31135309,
+        "scaleY": 1.0,
+        "scaleZ": 1.31135309
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/huts/mfs-hut-6.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "0aa0ac"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -24.592741,
+        "posY": 2.63380384,
+        "posZ": -9.6009,
+        "rotX": 0.08008414,
+        "rotY": 180.082932,
+        "rotZ": 359.8106,
+        "scaleX": 1.31135309,
+        "scaleY": 1.0,
+        "scaleZ": 1.31135309
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/huts/mfs-hut-7.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "556b78"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -24.59852,
+        "posY": 2.43853021,
+        "posZ": -9.593528,
+        "rotX": 0.0475520752,
+        "rotY": 179.959717,
+        "rotZ": 359.937164,
+        "scaleX": 1.31135309,
+        "scaleY": 1.0,
+        "scaleZ": 1.31135309
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/huts/mfs-hut-8.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "251916"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -24.59146,
+        "posY": 2.23983383,
+        "posZ": -9.596986,
+        "rotX": 0.0263750441,
+        "rotY": 180.118149,
+        "rotZ": 359.917816,
+        "scaleX": 1.31135309,
+        "scaleY": 1.0,
+        "scaleZ": 1.31135309
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/huts/mfs-hut-9.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e547b7"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -24.5933323,
+        "posY": 2.04332376,
+        "posZ": -9.594348,
+        "rotX": 0.00543212472,
+        "rotY": 180.026627,
+        "rotZ": 359.923553,
+        "scaleX": 1.31135309,
+        "scaleY": 1.0,
+        "scaleZ": 1.31135309
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/huts/mfs-hut-10.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a7fb5c"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -24.6825161,
+        "posY": 3.829782,
+        "posZ": -9.58669,
+        "rotX": 0.06928866,
+        "rotY": 180.001724,
+        "rotZ": 359.8423,
+        "scaleX": 1.31135309,
+        "scaleY": 1.0,
+        "scaleZ": 1.31135309
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/huts/mfs-hut-11.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "1a4575"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -24.6876411,
+        "posY": 3.63028049,
+        "posZ": -9.587627,
+        "rotX": 0.07010692,
+        "rotY": 179.983566,
+        "rotZ": 359.8408,
+        "scaleX": 1.31135309,
+        "scaleY": 1.0,
+        "scaleZ": 1.31135309
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/huts/mfs-hut-12.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ee22db"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -24.6898937,
+        "posY": 3.43049455,
+        "posZ": -9.589851,
+        "rotX": 0.07793707,
+        "rotY": 179.8907,
+        "rotZ": 359.835022,
+        "scaleX": 1.31135309,
+        "scaleY": 1.0,
+        "scaleZ": 1.31135309
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/huts/mfs-hut-13.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "7aaff3"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -24.6892262,
+        "posY": 3.23188639,
+        "posZ": -9.586318,
+        "rotX": 0.08198377,
+        "rotY": 179.876892,
+        "rotZ": 359.82782,
+        "scaleX": 1.31135309,
+        "scaleY": 1.0,
+        "scaleZ": 1.31135309
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/huts/mfs-hut-14.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b972a7"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -24.6884232,
+        "posY": 3.03162646,
+        "posZ": -9.5890255,
+        "rotX": 0.07500923,
+        "rotY": 179.755676,
+        "rotZ": 359.828674,
+        "scaleX": 1.31135309,
+        "scaleY": 1.0,
+        "scaleZ": 1.31135309
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/myfirststoneage/huts/mfs-hut-15.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e065e0"
+    }
+  ],
+  "SnapPoints": [
+    {
+      "Position": {
+        "x": -24.6798019,
+        "y": 0.9611349,
+        "z": -9.584912
+      }
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v12.3.1"
+}
