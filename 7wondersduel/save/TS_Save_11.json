@@ -1,0 +1,5616 @@
+{
+  "SaveName": "7 Wonders Duel",
+  "GameMode": "None",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "4/4/2020 11:18:09 AM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Cathedral",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -15.1108065,
+          "posY": 4.81034231,
+          "posZ": -20.1076221,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7722778,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -30.2150211,
+          "posY": 4.81034231,
+          "posZ": 10.17524,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6574125,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92106438
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 30.25128,
+          "posY": 4.81034231,
+          "posZ": 9.59069252,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6574049,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92106438
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 15.4749184,
+          "posY": 4.81034231,
+          "posZ": 19.8365288,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 11.7742147,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87238932
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 15.1961479,
+          "posY": 4.81034231,
+          "posZ": -20.1400986,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7722626,
+          "scaleY": 9.17449951,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -15.1927767,
+          "posY": 4.81034231,
+          "posZ": 19.787817,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7722626,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 30.10358,
+          "posY": 4.81034231,
+          "posZ": -8.449126,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6574011,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92106438
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -30.247818,
+          "posY": 4.81034231,
+          "posZ": -8.822588,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6574163,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92106438
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true
+  },
+  "ObjectStates": [
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 16.0,
+        "posY": 1.06,
+        "posZ": 9.01520252E-07,
+        "rotX": -7.36911147E-07,
+        "rotY": 269.9978,
+        "rotZ": 6.47862862E-07,
+        "scaleX": 3.51166582,
+        "scaleY": 1.0,
+        "scaleZ": 3.51166582
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/board.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ae906d",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": -0.0192866251,
+            "y": 0.100000374,
+            "z": 0.150339574
+          }
+        },
+        {
+          "Position": {
+            "x": -0.336807281,
+            "y": 0.100000389,
+            "z": 0.147987187
+          }
+        },
+        {
+          "Position": {
+            "x": -0.6551917,
+            "y": 0.1000004,
+            "z": 0.153940871
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9765833,
+            "y": 0.100000411,
+            "z": 0.155941144
+          }
+        },
+        {
+          "Position": {
+            "x": -1.31077313,
+            "y": 0.100000426,
+            "z": 0.150419384
+          }
+        },
+        {
+          "Position": {
+            "x": -1.63627386,
+            "y": 0.100000322,
+            "z": 0.152654976
+          }
+        },
+        {
+          "Position": {
+            "x": -1.96223927,
+            "y": 0.100000329,
+            "z": 0.146655649
+          }
+        },
+        {
+          "Position": {
+            "x": -2.26790929,
+            "y": 0.100000344,
+            "z": 0.135363087
+          }
+        },
+        {
+          "Position": {
+            "x": -2.605496,
+            "y": 0.100000359,
+            "z": 0.142422229
+          }
+        },
+        {
+          "Position": {
+            "x": -2.946955,
+            "y": 0.100000374,
+            "z": 0.153839439
+          }
+        },
+        {
+          "Position": {
+            "x": 0.292173266,
+            "y": 0.100000359,
+            "z": 0.153045833
+          }
+        },
+        {
+          "Position": {
+            "x": 0.6215434,
+            "y": 0.100000352,
+            "z": 0.1464576
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9426982,
+            "y": 0.100000337,
+            "z": 0.14034082
+          }
+        },
+        {
+          "Position": {
+            "x": 1.28099692,
+            "y": 0.100000322,
+            "z": 0.145626783
+          }
+        },
+        {
+          "Position": {
+            "x": 1.61036849,
+            "y": 0.100000426,
+            "z": 0.139038563
+          }
+        },
+        {
+          "Position": {
+            "x": 1.9386965,
+            "y": 0.100000419,
+            "z": 0.14488703
+          }
+        },
+        {
+          "Position": {
+            "x": 2.26490831,
+            "y": 0.100000404,
+            "z": 0.15499647
+          }
+        },
+        {
+          "Position": {
+            "x": 2.58582568,
+            "y": 0.100000389,
+            "z": 0.1447678
+          }
+        },
+        {
+          "Position": {
+            "x": 2.90192461,
+            "y": 0.100000381,
+            "z": 0.122418955
+          }
+        },
+        {
+          "Position": {
+            "x": 2.2538743,
+            "y": 0.100000381,
+            "z": 0.6091553
+          }
+        },
+        {
+          "Position": {
+            "x": 1.27038825,
+            "y": 0.100000419,
+            "z": 0.609154463
+          }
+        },
+        {
+          "Position": {
+            "x": -1.30134273,
+            "y": 0.100000404,
+            "z": 0.620108
+          }
+        },
+        {
+          "Position": {
+            "x": -2.275089,
+            "y": 0.100000322,
+            "z": 0.6233295
+          }
+        },
+        {
+          "Position": {
+            "x": 1.36242664,
+            "y": 0.100000359,
+            "z": -0.5862164
+          }
+        },
+        {
+          "Position": {
+            "x": 0.6740129,
+            "y": 0.100000381,
+            "z": -0.585710347
+          }
+        },
+        {
+          "Position": {
+            "x": -0.00999969151,
+            "y": 0.100000404,
+            "z": -0.5683002
+          }
+        },
+        {
+          "Position": {
+            "x": -0.707910061,
+            "y": 0.100000434,
+            "z": -0.5635263
+          }
+        },
+        {
+          "Position": {
+            "x": -1.3627063,
+            "y": 0.100000344,
+            "z": -0.578924954
+          }
+        }
+      ]
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 24.0,
+        "posY": 1.10574889,
+        "posZ": -2.0,
+        "rotX": 4.135269E-07,
+        "rotY": 269.966064,
+        "rotZ": 180.0,
+        "scaleX": 1.3656503,
+        "scaleY": 1.0,
+        "scaleZ": 1.3656503
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ],
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+          "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+          "NumWidth": 10,
+          "NumHeight": 5,
+          "BackIsHidden": false,
+          "UniqueBack": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 223,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 224,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 225,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 226,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 227,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 228,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 229,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 230,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 231,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 232,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 233,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 234,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 235,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 236,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 237,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 238,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 239,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 240,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 241,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 242,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 243,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 244,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.51018423E-09,
+            "posY": 1.26563227,
+            "posZ": -1.15824719E-07,
+            "rotX": -2.88504481E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 245,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "206887"
+        }
+      ],
+      "GUID": "43f65d"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 24.0,
+        "posY": 1.10574865,
+        "posZ": -6.0,
+        "rotX": -3.334141E-08,
+        "rotY": 269.978455,
+        "rotZ": 180.0,
+        "scaleX": 1.3656503,
+        "scaleY": 1.0,
+        "scaleZ": 1.3656503
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        201,
+        200,
+        222,
+        221,
+        220,
+        219,
+        218,
+        217,
+        216,
+        215,
+        214,
+        213,
+        212,
+        206,
+        210,
+        205,
+        203,
+        204,
+        202,
+        211,
+        209,
+        208,
+        207
+      ],
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+          "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+          "NumWidth": 10,
+          "NumHeight": 5,
+          "BackIsHidden": false,
+          "UniqueBack": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.5443314,
+            "posY": 1.277682,
+            "posZ": -6.4191823,
+            "rotX": -6.03561857E-05,
+            "rotY": 180.025436,
+            "rotZ": 180.00293,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 201,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "3b5ade"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.030709,
+            "posY": 1.26814973,
+            "posZ": -5.128498,
+            "rotX": 0.0594224781,
+            "rotY": 180.046448,
+            "rotZ": 179.866989,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 200,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "206887"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.84098357,
+            "posY": 1.2586143,
+            "posZ": -5.518986,
+            "rotX": 0.0467879623,
+            "rotY": 180.006119,
+            "rotZ": 179.993179,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 222,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "4e6308"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.82551837,
+            "posY": 1.249058,
+            "posZ": -5.35439062,
+            "rotX": 0.0519021563,
+            "rotY": 180.0111,
+            "rotZ": 179.989014,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 221,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "6de337"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.18839836,
+            "posY": 1.23908114,
+            "posZ": -5.15945959,
+            "rotX": 0.004062419,
+            "rotY": 180.002686,
+            "rotZ": 180.001953,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 220,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7a76bf"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.652378857,
+            "posY": 1.22934031,
+            "posZ": -6.055305,
+            "rotX": 0.017698884,
+            "rotY": 179.997284,
+            "rotZ": 179.997482,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 219,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "ed2684"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.700819,
+            "posY": 1.219785,
+            "posZ": -5.82658243,
+            "rotX": 0.0151150171,
+            "rotY": 180.007034,
+            "rotZ": 180.00061,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 218,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "169e9d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.00156152,
+            "posY": 1.21014643,
+            "posZ": -5.891427,
+            "rotX": 0.00335351913,
+            "rotY": 180.005646,
+            "rotZ": 180.001266,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 217,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b9b8df"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.201877,
+            "posY": 1.20045638,
+            "posZ": -6.12531233,
+            "rotX": 0.01065446,
+            "rotY": 180.009735,
+            "rotZ": 180.000412,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 216,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "94cf07"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.832103431,
+            "posY": 1.19048178,
+            "posZ": -6.69064474,
+            "rotX": 0.00534172868,
+            "rotY": 180.000244,
+            "rotZ": 180.006,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 215,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "4bf862"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.9033019,
+            "posY": 1.18049073,
+            "posZ": -6.410094,
+            "rotX": 0.0484503135,
+            "rotY": 179.969391,
+            "rotZ": 179.994736,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 214,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "5deed3"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.5684551,
+            "posY": 1.17127669,
+            "posZ": -5.95417,
+            "rotX": 0.00516404025,
+            "rotY": 179.997345,
+            "rotZ": 180.013092,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 213,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "33f2c1"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.13190854,
+            "posY": 1.16144681,
+            "posZ": -5.97765064,
+            "rotX": 359.985168,
+            "rotY": 180.08873,
+            "rotZ": 179.915161,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 212,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "174cdc"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.7666502,
+            "posY": 1.421296,
+            "posZ": -6.81116,
+            "rotX": 359.802216,
+            "rotY": 179.945068,
+            "rotZ": 179.791534,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 206,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "a94f3c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.3164742,
+            "posY": 1.82966685,
+            "posZ": -6.551805,
+            "rotX": 359.6915,
+            "rotY": 179.976654,
+            "rotZ": 179.711349,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 210,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "0f9edd"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.845559835,
+            "posY": 1.27504611,
+            "posZ": -6.757731,
+            "rotX": 359.8397,
+            "rotY": 179.970154,
+            "rotZ": 179.8262,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 205,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "770859"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.759931564,
+            "posY": 1.07835126,
+            "posZ": -6.129691,
+            "rotX": 0.07533947,
+            "rotY": 179.997467,
+            "rotZ": 179.946243,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 203,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "38adf1"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.8133836,
+            "posY": 1.222545,
+            "posZ": -6.059927,
+            "rotX": 359.973053,
+            "rotY": 179.926926,
+            "rotZ": 179.903839,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 204,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "9e3b31"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.891410768,
+            "posY": 1.03414321,
+            "posZ": -5.1249547,
+            "rotX": 0.009623343,
+            "rotY": 179.995682,
+            "rotZ": 180.03833,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 202,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "e29ce7"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.815858245,
+            "posY": 1.96904159,
+            "posZ": -5.055828,
+            "rotX": 359.678375,
+            "rotY": 179.998825,
+            "rotZ": 179.725342,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 211,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "d4f346"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.19564962,
+            "posY": 1.67600954,
+            "posZ": -5.03703928,
+            "rotX": 359.699066,
+            "rotY": 179.977585,
+            "rotZ": 179.702682,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 209,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b13dc8"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.943942666,
+            "posY": 1.61827683,
+            "posZ": -5.729771,
+            "rotX": 359.654,
+            "rotY": 179.922913,
+            "rotZ": 179.693161,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 208,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "a6ba00"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.913444042,
+            "posY": 1.47409642,
+            "posZ": -5.882386,
+            "rotX": 359.711578,
+            "rotY": 179.966721,
+            "rotZ": 179.717468,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 207,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards1back.png",
+              "NumWidth": 10,
+              "NumHeight": 5,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f3ad67"
+        }
+      ],
+      "GUID": "3d9a95"
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 24.0,
+        "posY": 1.04657757,
+        "posZ": 6.0,
+        "rotX": -1.46953845E-08,
+        "rotY": 270.004639,
+        "rotZ": 180.0,
+        "scaleX": 1.3656503,
+        "scaleY": 1.0,
+        "scaleZ": 1.3656503
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326
+      ],
+      "CustomDeck": {
+        "3": {
+          "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+          "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+          "NumWidth": 10,
+          "NumHeight": 3,
+          "BackIsHidden": false,
+          "UniqueBack": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.01725925E-09,
+            "posY": 1.04493046,
+            "posZ": -1.95404937E-09,
+            "rotX": -7.590176E-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 320,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.01725925E-09,
+            "posY": 1.04493046,
+            "posZ": -1.95404937E-09,
+            "rotX": -7.590176E-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 321,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.01725925E-09,
+            "posY": 1.04493046,
+            "posZ": -1.95404937E-09,
+            "rotX": -7.590176E-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 322,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.01725925E-09,
+            "posY": 1.04493046,
+            "posZ": -1.95404937E-09,
+            "rotX": -7.590176E-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 323,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.01725925E-09,
+            "posY": 1.04493046,
+            "posZ": -1.95404937E-09,
+            "rotX": -7.590176E-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 324,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.01725925E-09,
+            "posY": 1.04493046,
+            "posZ": -1.95404937E-09,
+            "rotX": -7.590176E-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 325,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.01725925E-09,
+            "posY": 1.04493046,
+            "posZ": -1.95404937E-09,
+            "rotX": -7.590176E-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 326,
+          "SidewaysCard": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "1c828b"
+        }
+      ],
+      "GUID": "c50e31"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": 24.0,
+        "posY": 1.0897603,
+        "posZ": 2.0,
+        "rotX": -1.36661413E-07,
+        "rotY": 269.983948,
+        "rotZ": 180.0,
+        "scaleX": 1.3656503,
+        "scaleY": 1.0,
+        "scaleZ": 1.3656503
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        319,
+        318,
+        317,
+        316,
+        315,
+        314,
+        313,
+        312,
+        310,
+        311,
+        309,
+        308,
+        307,
+        306,
+        305,
+        304,
+        303,
+        302,
+        301,
+        300
+      ],
+      "CustomDeck": {
+        "3": {
+          "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+          "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+          "NumWidth": 10,
+          "NumHeight": 3,
+          "BackIsHidden": false,
+          "UniqueBack": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.379226,
+            "posY": 1.24874234,
+            "posZ": 0.345330238,
+            "rotX": -0.000922682,
+            "rotY": 180.011581,
+            "rotZ": 180.003082,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 319,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.09222555,
+            "posY": 1.23945343,
+            "posZ": -3.698097,
+            "rotX": 0.0108880308,
+            "rotY": 180.014252,
+            "rotZ": 180.007828,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 318,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.16220748,
+            "posY": 1.23033118,
+            "posZ": -3.70365381,
+            "rotX": 0.0264675356,
+            "rotY": 180.0888,
+            "rotZ": 179.998337,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 317,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.788264334,
+            "posY": 1.21973443,
+            "posZ": -3.73178363,
+            "rotX": -0.00167167734,
+            "rotY": 179.999817,
+            "rotZ": 180.00235,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 316,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.8327246,
+            "posY": 1.21013236,
+            "posZ": -3.69590449,
+            "rotX": 0.00597925158,
+            "rotY": 180.028961,
+            "rotZ": 180.004715,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 315,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.10761714,
+            "posY": 1.20038736,
+            "posZ": -3.19689035,
+            "rotX": 0.00224050228,
+            "rotY": 180.0021,
+            "rotZ": 180.003784,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 314,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.7679923,
+            "posY": 1.19067061,
+            "posZ": -3.18091416,
+            "rotX": -0.00498172268,
+            "rotY": 179.99855,
+            "rotZ": 180.008575,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 313,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.5321015,
+            "posY": 1.18110764,
+            "posZ": -3.62303042,
+            "rotX": 359.987579,
+            "rotY": 179.938873,
+            "rotZ": 179.998184,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 312,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.790922344,
+            "posY": 1.20325,
+            "posZ": -4.17277527,
+            "rotX": 1.284625,
+            "rotY": 179.956009,
+            "rotZ": 180.018616,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 310,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.04396987,
+            "posY": 1.3371911,
+            "posZ": -4.247351,
+            "rotX": 353.990082,
+            "rotY": 180.097427,
+            "rotZ": 179.998749,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 311,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "4883c1"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.773549557,
+            "posY": 1.15171456,
+            "posZ": -4.62176228,
+            "rotX": 0.03218221,
+            "rotY": 180.051468,
+            "rotZ": 180.027237,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 309,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.25946975,
+            "posY": 1.14255452,
+            "posZ": -4.64110947,
+            "rotX": 0.0201129559,
+            "rotY": 180.012939,
+            "rotZ": 179.959747,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 308,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.77155948,
+            "posY": 1.18753242,
+            "posZ": -4.56274462,
+            "rotX": 0.06259633,
+            "rotY": 179.957489,
+            "rotZ": 179.932266,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 307,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.9759177,
+            "posY": 1.17737782,
+            "posZ": -4.019403,
+            "rotX": 0.0189331062,
+            "rotY": 180.000381,
+            "rotZ": 179.8867,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 306,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.299191,
+            "posY": 1.1735661,
+            "posZ": -4.14969158,
+            "rotX": 0.00156561483,
+            "rotY": 180.001129,
+            "rotZ": 180.004059,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 305,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.56158793,
+            "posY": 1.17076981,
+            "posZ": -4.37243938,
+            "rotX": 0.00343732885,
+            "rotY": 179.999359,
+            "rotZ": 180.001083,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 304,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.05831957,
+            "posY": 1.17336464,
+            "posZ": -3.56725836,
+            "rotX": 0.00148458977,
+            "rotY": 180.0107,
+            "rotZ": 180.004959,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 303,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.02300954,
+            "posY": 1.184262,
+            "posZ": -3.88521886,
+            "rotX": 0.0277587213,
+            "rotY": 179.999268,
+            "rotZ": 179.779388,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 302,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1c828b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.2991488,
+            "posY": 1.18450415,
+            "posZ": -3.694498,
+            "rotX": 0.008455342,
+            "rotY": 180.0062,
+            "rotZ": 180.002655,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 301,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b66e69"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.07970893,
+            "posY": 1.03446031,
+            "posZ": -3.73057556,
+            "rotX": 0.0009417042,
+            "rotY": 180.002365,
+            "rotZ": 180.003525,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": true,
+          "CardID": 300,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2.jpg",
+              "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/cards2back.png",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1c828b"
+        }
+      ],
+      "GUID": "beb74c"
+    },
+    {
+      "Name": "Custom_PDF",
+      "Transform": {
+        "posX": -20.61816,
+        "posY": 0.960000038,
+        "posZ": 12.2996063,
+        "rotX": -3.70347841E-08,
+        "rotY": 270.0,
+        "rotZ": -5.52557822E-08,
+        "scaleX": 2.4862206,
+        "scaleY": 1.0,
+        "scaleZ": 2.4862206
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomPDF": {
+        "PDFUrl": "https://www.7wondersduel.com/files/rules/7-Wonders-Duel-Rules-US.pdf",
+        "PDFPassword": "",
+        "PDFPage": 0,
+        "PDFPageOffset": 0
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "0fe9c3"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 13.8606758,
+        "posY": 1.16000056,
+        "posZ": 4.461117,
+        "rotX": 7.41589361E-07,
+        "rotY": 180.0,
+        "rotZ": 2.83184954E-06,
+        "scaleX": 1.07416832,
+        "scaleY": 1.0,
+        "scaleZ": 1.07416832
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/lost2.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c46f96"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 13.8605347,
+        "posY": 1.1600008,
+        "posZ": 7.91484,
+        "rotX": 6.550861E-07,
+        "rotY": 179.976013,
+        "rotZ": -1.95771122E-06,
+        "scaleX": 1.2307508,
+        "scaleY": 1.0,
+        "scaleZ": 1.2307508
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/lost5.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "235a66"
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 22.0,
+        "posY": 1.04712474,
+        "posZ": -14.0,
+        "rotX": 7.98008742E-11,
+        "rotY": 180.027985,
+        "rotZ": 180.0,
+        "scaleX": 2.23836637,
+        "scaleY": 1.0,
+        "scaleZ": 2.23836637
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "SidewaysCard": true,
+      "DeckIDs": [
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508,
+        509,
+        510,
+        511
+      ],
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/wonders.jpg",
+          "BackURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/wondersback.jpg",
+          "NumWidth": 4,
+          "NumHeight": 3,
+          "BackIsHidden": false,
+          "UniqueBack": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.31011654E-09,
+            "posY": 1.04712474,
+            "posZ": -1.850708E-09,
+            "rotX": -1.2879029E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 500,
+          "SidewaysCard": true,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "4b1604"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.31011654E-09,
+            "posY": 1.04712474,
+            "posZ": -1.850708E-09,
+            "rotX": -1.2879029E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 501,
+          "SidewaysCard": true,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "4b1604"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.31011654E-09,
+            "posY": 1.04712474,
+            "posZ": -1.850708E-09,
+            "rotX": -1.2879029E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 502,
+          "SidewaysCard": true,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "4b1604"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.31011654E-09,
+            "posY": 1.04712474,
+            "posZ": -1.850708E-09,
+            "rotX": -1.2879029E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 503,
+          "SidewaysCard": true,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "4b1604"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.31011654E-09,
+            "posY": 1.04712474,
+            "posZ": -1.850708E-09,
+            "rotX": -1.2879029E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 504,
+          "SidewaysCard": true,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "4b1604"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.31011654E-09,
+            "posY": 1.04712474,
+            "posZ": -1.850708E-09,
+            "rotX": -1.2879029E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 505,
+          "SidewaysCard": true,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "4b1604"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.31011654E-09,
+            "posY": 1.04712474,
+            "posZ": -1.850708E-09,
+            "rotX": -1.2879029E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 506,
+          "SidewaysCard": true,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "4b1604"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.31011654E-09,
+            "posY": 1.04712474,
+            "posZ": -1.850708E-09,
+            "rotX": -1.2879029E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 507,
+          "SidewaysCard": true,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "4b1604"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.31011654E-09,
+            "posY": 1.04712474,
+            "posZ": -1.850708E-09,
+            "rotX": -1.2879029E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 508,
+          "SidewaysCard": true,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "4b1604"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.31011654E-09,
+            "posY": 1.04712474,
+            "posZ": -1.850708E-09,
+            "rotX": -1.2879029E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 509,
+          "SidewaysCard": true,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "4b1604"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.31011654E-09,
+            "posY": 1.04712474,
+            "posZ": -1.850708E-09,
+            "rotX": -1.2879029E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 510,
+          "SidewaysCard": true,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "4b1604"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.31011654E-09,
+            "posY": 1.04712474,
+            "posZ": -1.850708E-09,
+            "rotX": -1.2879029E-07,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 511,
+          "SidewaysCard": true,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "ContainedObjects": [],
+          "GUID": "4b1604"
+        }
+      ],
+      "GUID": "d88249"
+    },
+    {
+      "Name": "Bag",
+      "Transform": {
+        "posX": 22.0000019,
+        "posY": 0.7194555,
+        "posZ": 14.0,
+        "rotX": -1.05531194E-06,
+        "rotY": 90.00013,
+        "rotZ": 1.52105159E-07,
+        "scaleX": 1.29999971,
+        "scaleY": 1.29999971,
+        "scaleZ": 1.29999971
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7058823,
+        "g": 0.366520882,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 8.606361,
+            "posY": 3.209838,
+            "posZ": -3.83771753,
+            "rotX": 358.451447,
+            "rotY": 179.757233,
+            "rotZ": 5.18736029,
+            "scaleX": 0.508209646,
+            "scaleY": 1.0,
+            "scaleZ": 0.508209646
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/s4.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "e302a3"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 10.0836725,
+            "posY": 3.14006019,
+            "posZ": -3.83972669,
+            "rotX": 0.144091889,
+            "rotY": 179.968628,
+            "rotZ": 0.469191641,
+            "scaleX": 0.508209646,
+            "scaleY": 1.0,
+            "scaleZ": 0.508209646
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/s8.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f987ce"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 9.056752,
+            "posY": 3.12276578,
+            "posZ": -3.52918839,
+            "rotX": 359.427032,
+            "rotY": 180.039719,
+            "rotZ": 353.2554,
+            "scaleX": 0.508209646,
+            "scaleY": 1.0,
+            "scaleZ": 0.508209646
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/s6.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "48ca63"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 9.508422,
+            "posY": 3.11587739,
+            "posZ": 0.578078,
+            "rotX": -0.00317123067,
+            "rotY": 179.9551,
+            "rotZ": 352.4506,
+            "scaleX": 0.508209646,
+            "scaleY": 1.0,
+            "scaleZ": 0.508209646
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/s3.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "bd9d52"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 7.312371,
+            "posY": 3.027455,
+            "posZ": 0.924902856,
+            "rotX": 353.7971,
+            "rotY": 179.739288,
+            "rotZ": 3.66973138,
+            "scaleX": 0.508209646,
+            "scaleY": 1.0,
+            "scaleZ": 0.508209646
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/s10.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": true
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "5f30bd"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 9.133088,
+            "posY": 3.13101768,
+            "posZ": -3.60841274,
+            "rotX": 0.409022748,
+            "rotY": 179.95842,
+            "rotZ": 357.9596,
+            "scaleX": 0.508209646,
+            "scaleY": 1.0,
+            "scaleZ": 0.508209646
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/s5.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "beeb24"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 17.1931076,
+            "posY": 3.275516,
+            "posZ": -5.175509,
+            "rotX": 5.83675755E-05,
+            "rotY": 180.011368,
+            "rotZ": 0.0008603443,
+            "scaleX": 0.508209646,
+            "scaleY": 1.0,
+            "scaleZ": 0.508209646
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/s1.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "4ae430"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 11.6231737,
+            "posY": 3.18593526,
+            "posZ": 2.05844879,
+            "rotX": 359.986237,
+            "rotY": 180.007309,
+            "rotZ": 353.292847,
+            "scaleX": 0.508209646,
+            "scaleY": 1.0,
+            "scaleZ": 0.508209646
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/s2.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "cbe1f8"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 14.2592773,
+            "posY": 3.275501,
+            "posZ": -0.878558934,
+            "rotX": -0.0003251014,
+            "rotY": 180.0267,
+            "rotZ": 0.000661599741,
+            "scaleX": 0.508209646,
+            "scaleY": 1.0,
+            "scaleZ": 0.508209646
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/s7.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b9535d"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 21.030838,
+            "posY": 3.71005154,
+            "posZ": 14.0334778,
+            "rotX": 359.899,
+            "rotY": 179.998825,
+            "rotZ": 357.013367,
+            "scaleX": 0.508209646,
+            "scaleY": 1.0,
+            "scaleZ": 0.508209646
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/s9.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "829a21"
+        }
+      ],
+      "GUID": "7705fc"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": -18.0,
+        "posY": 0.943,
+        "posZ": -6.0,
+        "rotX": -1.23972461E-06,
+        "rotY": 89.99999,
+        "rotZ": 1.0307734E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 10.92324,
+            "posY": 3.09465575,
+            "posZ": 0.5247841,
+            "rotX": 355.9909,
+            "rotY": 180.0532,
+            "rotZ": 0.173170641,
+            "scaleX": 0.434757948,
+            "scaleY": 1.0,
+            "scaleZ": 0.434757948
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/6.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "5dd679"
+        }
+      ],
+      "GUID": "95b9e5"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": -18.0,
+        "posY": 0.9429999,
+        "posZ": -2.0,
+        "rotX": -4.43676186E-07,
+        "rotY": 89.99999,
+        "rotZ": 1.67078667E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 7.610334,
+            "posY": 3.10471463,
+            "posZ": 3.39751339,
+            "rotX": 359.1815,
+            "rotY": 180.045837,
+            "rotZ": 359.857269,
+            "scaleX": 0.434757948,
+            "scaleY": 1.0,
+            "scaleZ": 0.434757948
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/3.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "9eab76"
+        }
+      ],
+      "GUID": "ea451d"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": -18.0,
+        "posY": 0.9429999,
+        "posZ": 2.0,
+        "rotX": -3.43711349E-07,
+        "rotY": 89.99999,
+        "rotZ": 2.96010143E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 6.559025,
+            "posY": 3.14061284,
+            "posZ": -0.182133675,
+            "rotX": 0.674193263,
+            "rotY": 180.005325,
+            "rotZ": 179.33847,
+            "scaleX": 0.434757948,
+            "scaleY": 1.0,
+            "scaleZ": 0.434757948
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/1.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.2,
+              "MergeDistancePixels": 15.0,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "09c972"
+        }
+      ],
+      "GUID": "484ddd"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 13.8113737,
+        "posY": 1.16000056,
+        "posZ": -7.989469,
+        "rotX": -8.07922447E-07,
+        "rotY": -8.25191237E-05,
+        "rotZ": -1.31376316E-06,
+        "scaleX": 1.2307508,
+        "scaleY": 1.0,
+        "scaleZ": 1.2307508
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/lost5.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "269f9a"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 13.8225546,
+        "posY": 1.16000044,
+        "posZ": -4.569984,
+        "rotX": -5.532043E-07,
+        "rotY": 359.983521,
+        "rotZ": 9.106886E-07,
+        "scaleX": 1.07416832,
+        "scaleY": 1.0,
+        "scaleZ": 1.07416832
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/7wondersduel/lost2.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4ed179"
+    },
+    {
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": 15.4720583,
+        "posY": 1.16183352,
+        "posZ": -0.06774758,
+        "rotX": -1.73460321E-05,
+        "rotY": 89.9997253,
+        "rotZ": -2.51737833E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.838235259,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "70891e"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v12.3.3"
+}

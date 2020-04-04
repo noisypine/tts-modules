@@ -1,0 +1,3341 @@
+{
+  "SaveName": "Qwixx",
+  "GameMode": "Qwixx",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "4/2/2020 5:22:31 PM",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Regal",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": true,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": true,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -15.1108065,
+          "posY": 4.81909943,
+          "posZ": -20.1076221,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.773098,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -30.2150211,
+          "posY": 4.81909943,
+          "posZ": 10.17524,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6630192,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92421532
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 30.25128,
+          "posY": 4.81909943,
+          "posZ": 9.59069252,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6630135,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92421532
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 15.4749184,
+          "posY": 4.81909943,
+          "posZ": 19.8365288,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 11.7806349,
+          "scaleY": 9.174497,
+          "scaleZ": 4.8759284
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 15.1961479,
+          "posY": 4.81909943,
+          "posZ": -20.1400986,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7730885,
+          "scaleY": 9.17449951,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -15.1927767,
+          "posY": 4.81909943,
+          "posZ": 19.787817,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7730885,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 30.10358,
+          "posY": 4.81909943,
+          "posZ": -8.449126,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.66301,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92421532
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -30.247818,
+          "posY": 4.81909943,
+          "posZ": -8.822588,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.663023,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92421532
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true
+  },
+  "ObjectStates": [
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -22.0,
+        "posY": 1.01,
+        "posZ": 5.733108E-07,
+        "rotX": -1.894129E-07,
+        "rotY": 270.0,
+        "rotZ": -3.38317676E-08,
+        "scaleX": 2.548663,
+        "scaleY": 1.0,
+        "scaleZ": 2.548663
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://u.cubeupload.com/noisypine/qwixxcard.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a44409",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 2.01909614,
+            "y": 0.0499999672,
+            "z": -1.136435
+          }
+        },
+        {
+          "Position": {
+            "x": 1.66255963,
+            "y": 0.0499999672,
+            "z": -1.14423156
+          }
+        },
+        {
+          "Position": {
+            "x": 1.26748085,
+            "y": 0.0499999672,
+            "z": -1.13029838
+          }
+        },
+        {
+          "Position": {
+            "x": 0.894346,
+            "y": 0.0499999635,
+            "z": -1.11621177
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5268039,
+            "y": 0.0499999635,
+            "z": -1.11858261
+          }
+        },
+        {
+          "Position": {
+            "x": 0.137317792,
+            "y": 0.0499999635,
+            "z": -1.12109327
+          }
+        },
+        {
+          "Position": {
+            "x": -0.230224118,
+            "y": 0.0499999635,
+            "z": -1.12346411
+          }
+        },
+        {
+          "Position": {
+            "x": -0.60884583,
+            "y": 0.0499999635,
+            "z": -1.109405
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9818394,
+            "y": 0.0499999635,
+            "z": -1.117314
+          }
+        },
+        {
+          "Position": {
+            "x": -1.3277272,
+            "y": 0.04999996,
+            "z": -1.12392414
+          }
+        },
+        {
+          "Position": {
+            "x": -1.69534135,
+            "y": 0.04999996,
+            "z": -1.1152916
+          }
+        },
+        {
+          "Position": {
+            "x": 2.01561666,
+            "y": 0.04999996,
+            "z": -0.6460956
+          }
+        },
+        {
+          "Position": {
+            "x": 1.6479671,
+            "y": 0.04999996,
+            "z": -0.6319678
+          }
+        },
+        {
+          "Position": {
+            "x": 1.25851655,
+            "y": 0.04999996,
+            "z": -0.6399866
+          }
+        },
+        {
+          "Position": {
+            "x": 0.885488,
+            "y": 0.049999956,
+            "z": -0.642399967
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5178034,
+            "y": 0.049999956,
+            "z": -0.622776866
+          }
+        },
+        {
+          "Position": {
+            "x": 0.1558171,
+            "y": 0.049999956,
+            "z": -0.636109054
+          }
+        },
+        {
+          "Position": {
+            "x": -0.217318356,
+            "y": 0.049999956,
+            "z": -0.62202245
+          }
+        },
+        {
+          "Position": {
+            "x": -0.6066615,
+            "y": 0.049999956,
+            "z": -0.6465278
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9634111,
+            "y": 0.049999956,
+            "z": -0.62134
+          }
+        },
+        {
+          "Position": {
+            "x": -1.35286081,
+            "y": 0.0499999523,
+            "z": -0.6293452
+          }
+        },
+        {
+          "Position": {
+            "x": -1.72592509,
+            "y": 0.0499999523,
+            "z": -0.626249
+          }
+        },
+        {
+          "Position": {
+            "x": -1.70717192,
+            "y": 0.0500000678,
+            "z": -0.13138929
+          }
+        },
+        {
+          "Position": {
+            "x": -1.33396649,
+            "y": 0.04999995,
+            "z": -0.1564665
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9662465,
+            "y": 0.0499999523,
+            "z": -0.1815715
+          }
+        },
+        {
+          "Position": {
+            "x": -0.593395054,
+            "y": 0.0499999523,
+            "z": -0.151683
+          }
+        },
+        {
+          "Position": {
+            "x": -0.225887537,
+            "y": 0.0499999523,
+            "z": -0.143816948
+          }
+        },
+        {
+          "Position": {
+            "x": 0.12519832,
+            "y": 0.0499999523,
+            "z": -0.1415584
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5367332,
+            "y": 0.0499999523,
+            "z": -0.1553936
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9262547,
+            "y": 0.0499999523,
+            "z": -0.158377379
+          }
+        },
+        {
+          "Position": {
+            "x": 1.26091862,
+            "y": 0.049999956,
+            "z": -0.161726445
+          }
+        },
+        {
+          "Position": {
+            "x": 1.62283373,
+            "y": 0.049999956,
+            "z": -0.137402087
+          }
+        },
+        {
+          "Position": {
+            "x": 2.0015254,
+            "y": 0.049999956,
+            "z": -0.1624374
+          }
+        },
+        {
+          "Position": {
+            "x": 2.009377,
+            "y": 0.0499999523,
+            "z": 0.3213621
+          }
+        },
+        {
+          "Position": {
+            "x": 1.61978531,
+            "y": 0.0499999523,
+            "z": 0.335343957
+          }
+        },
+        {
+          "Position": {
+            "x": 1.27967083,
+            "y": 0.0499999523,
+            "z": 0.333147466
+          }
+        },
+        {
+          "Position": {
+            "x": 0.879178464,
+            "y": 0.0500000678,
+            "z": 0.3360625
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5281283,
+            "y": 0.04999995,
+            "z": 0.328307182
+          }
+        },
+        {
+          "Position": {
+            "x": 0.155099779,
+            "y": 0.04999995,
+            "z": 0.325901181
+          }
+        },
+        {
+          "Position": {
+            "x": -0.223414868,
+            "y": 0.04999995,
+            "z": 0.323460817
+          }
+        },
+        {
+          "Position": {
+            "x": -0.585542738,
+            "y": 0.0500000678,
+            "z": 0.332115
+          }
+        },
+        {
+          "Position": {
+            "x": -0.967437744,
+            "y": 0.04999995,
+            "z": 0.341724157
+          }
+        },
+        {
+          "Position": {
+            "x": -1.32945943,
+            "y": 0.0500000641,
+            "z": 0.3338866
+          }
+        },
+        {
+          "Position": {
+            "x": -1.70807993,
+            "y": 0.0500000641,
+            "z": 0.347958148
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": -0.587661743,
+        "posY": 1.55436194,
+        "posZ": -1.98388863,
+        "rotX": 0.008484802,
+        "rotY": 117.1916,
+        "rotZ": 90.0001144,
+        "scaleX": 1.79999936,
+        "scaleY": 1.79999936,
+        "scaleZ": 1.79999936
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d6980d",
+      "RotationValues": [
+        {
+          "Value": 1,
+          "Rotation": {
+            "x": -90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 2,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 3,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -90.0
+          }
+        },
+        {
+          "Value": 4,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": 5,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -180.0
+          }
+        },
+        {
+          "Value": 6,
+          "Rotation": {
+            "x": 90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": 1.41217375,
+        "posY": 1.55437481,
+        "posZ": 0.0160589423,
+        "rotX": 270.0,
+        "rotY": 221.503784,
+        "rotZ": 0.0,
+        "scaleX": 1.79999936,
+        "scaleY": 1.79999936,
+        "scaleZ": 1.79999936
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.01025645,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "6e4ca0",
+      "RotationValues": [
+        {
+          "Value": 1,
+          "Rotation": {
+            "x": -90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 2,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 3,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -90.0
+          }
+        },
+        {
+          "Value": 4,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": 5,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -180.0
+          }
+        },
+        {
+          "Value": 6,
+          "Rotation": {
+            "x": 90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": 3.41225219,
+        "posY": 1.55435932,
+        "posZ": 0.0161450878,
+        "rotX": -1.61199989E-06,
+        "rotY": 209.0106,
+        "rotZ": 180.0,
+        "scaleX": 1.79999936,
+        "scaleY": 1.79999936,
+        "scaleZ": 1.79999936
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.04949089,
+        "g": 0.665650249,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e6bdb8",
+      "RotationValues": [
+        {
+          "Value": 1,
+          "Rotation": {
+            "x": -90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 2,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 3,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -90.0
+          }
+        },
+        {
+          "Value": 4,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": 5,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -180.0
+          }
+        },
+        {
+          "Value": 6,
+          "Rotation": {
+            "x": 90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": -4.58774853,
+        "posY": 1.55436,
+        "posZ": 0.0161450151,
+        "rotX": 0.0,
+        "rotY": 14.40599,
+        "rotZ": 90.0,
+        "scaleX": 1.79999936,
+        "scaleY": 1.79999936,
+        "scaleZ": 1.79999936
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.9893046,
+        "b": 0.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "65d1d2",
+      "RotationValues": [
+        {
+          "Value": 1,
+          "Rotation": {
+            "x": -90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 2,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 3,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -90.0
+          }
+        },
+        {
+          "Value": 4,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": 5,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -180.0
+          }
+        },
+        {
+          "Value": 6,
+          "Rotation": {
+            "x": 90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": -2.58774781,
+        "posY": 1.5543611,
+        "posZ": 0.016145369,
+        "rotX": -8.73467741E-07,
+        "rotY": 349.042267,
+        "rotZ": 5.955854E-07,
+        "scaleX": 1.79999936,
+        "scaleY": 1.79999936,
+        "scaleZ": 1.79999936
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.132898271,
+        "g": 0.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ebfbbf",
+      "RotationValues": [
+        {
+          "Value": 1,
+          "Rotation": {
+            "x": -90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 2,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 3,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -90.0
+          }
+        },
+        {
+          "Value": 4,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": 5,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -180.0
+          }
+        },
+        {
+          "Value": 6,
+          "Rotation": {
+            "x": 90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Die_6",
+      "Transform": {
+        "posX": -0.5877418,
+        "posY": 1.55435944,
+        "posZ": 2.01614475,
+        "rotX": 9.144507E-07,
+        "rotY": 214.026611,
+        "rotZ": 180.0,
+        "scaleX": 1.79999936,
+        "scaleY": 1.79999936,
+        "scaleZ": 1.79999936
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 0,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "6728ad",
+      "RotationValues": [
+        {
+          "Value": 1,
+          "Rotation": {
+            "x": -90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 2,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": 3,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -90.0
+          }
+        },
+        {
+          "Value": 4,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": 5,
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -180.0
+          }
+        },
+        {
+          "Value": 6,
+          "Rotation": {
+            "x": 90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -10.0,
+        "posY": 1.00999987,
+        "posZ": -12.0,
+        "rotX": -7.28838723E-09,
+        "rotY": 180.0,
+        "rotZ": -4.3752113E-09,
+        "scaleX": 2.548663,
+        "scaleY": 1.0,
+        "scaleZ": 2.548663
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/noisypine/tts-modules/master/Qwixx/qwixx-card.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "fa5f4f",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 2.01628876,
+            "y": 0.0499999523,
+            "z": -1.13600433
+          }
+        },
+        {
+          "Position": {
+            "x": 1.64871383,
+            "y": 0.0499999523,
+            "z": -1.13600433
+          }
+        },
+        {
+          "Position": {
+            "x": 1.27407813,
+            "y": 0.0499999523,
+            "z": -1.14309406
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9065136,
+            "y": 0.0499999523,
+            "z": -1.14309406
+          }
+        },
+        {
+          "Position": {
+            "x": 0.524805546,
+            "y": 0.0499999523,
+            "z": -1.12893343
+          }
+        },
+        {
+          "Position": {
+            "x": 0.136034727,
+            "y": 0.0499999523,
+            "z": -1.12893307
+          }
+        },
+        {
+          "Position": {
+            "x": -0.245673329,
+            "y": 0.0499999523,
+            "z": -1.12185276
+          }
+        },
+        {
+          "Position": {
+            "x": -0.584959865,
+            "y": 0.0499999523,
+            "z": -1.11477172
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9595964,
+            "y": 0.0499999523,
+            "z": -1.11477172
+          }
+        },
+        {
+          "Position": {
+            "x": -1.348376,
+            "y": 0.0499999523,
+            "z": -1.12894213
+          }
+        },
+        {
+          "Position": {
+            "x": -1.71594059,
+            "y": 0.0499999523,
+            "z": -1.10769117
+          }
+        },
+        {
+          "Position": {
+            "x": 2.00214434,
+            "y": 0.0499999523,
+            "z": -0.6260181
+          }
+        },
+        {
+          "Position": {
+            "x": 1.627508,
+            "y": 0.0499999523,
+            "z": -0.6331079
+          }
+        },
+        {
+          "Position": {
+            "x": 1.2670064,
+            "y": 0.0499999523,
+            "z": -0.6401883
+          }
+        },
+        {
+          "Position": {
+            "x": 0.899441838,
+            "y": 0.0499999523,
+            "z": -0.647278368
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5248055,
+            "y": 0.0499999523,
+            "z": -0.6401977
+          }
+        },
+        {
+          "Position": {
+            "x": 0.143097445,
+            "y": 0.0499999523,
+            "z": -0.6401977
+          }
+        },
+        {
+          "Position": {
+            "x": -0.21739538,
+            "y": 0.0499999523,
+            "z": -0.633117
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5849599,
+            "y": 0.0499999523,
+            "z": -0.633117
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9666683,
+            "y": 0.0499999523,
+            "z": -0.6402072
+          }
+        },
+        {
+          "Position": {
+            "x": -1.348376,
+            "y": 0.0499999523,
+            "z": -0.6260364
+          }
+        },
+        {
+          "Position": {
+            "x": -1.70886922,
+            "y": 0.0499999523,
+            "z": -0.640207231
+          }
+        },
+        {
+          "Position": {
+            "x": 2.00214434,
+            "y": 0.0499999523,
+            "z": -0.144372448
+          }
+        },
+        {
+          "Position": {
+            "x": 1.63457084,
+            "y": 0.0499999523,
+            "z": -0.1514532
+          }
+        },
+        {
+          "Position": {
+            "x": 1.2599349,
+            "y": 0.0499999523,
+            "z": -0.158542946
+          }
+        },
+        {
+          "Position": {
+            "x": 0.8994417,
+            "y": 0.0499999523,
+            "z": -0.158542961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5389396,
+            "y": 0.0499999523,
+            "z": -0.165623724
+          }
+        },
+        {
+          "Position": {
+            "x": 0.150168777,
+            "y": 0.0499999523,
+            "z": -0.144381955
+          }
+        },
+        {
+          "Position": {
+            "x": -0.2173954,
+            "y": 0.0499999523,
+            "z": -0.151462346
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5920317,
+            "y": 0.0499999523,
+            "z": -0.144382015
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9525337,
+            "y": 0.0499999523,
+            "z": -0.14438206
+          }
+        },
+        {
+          "Position": {
+            "x": -1.34837627,
+            "y": 0.0499999523,
+            "z": -0.151471421
+          }
+        },
+        {
+          "Position": {
+            "x": -1.72301257,
+            "y": 0.0499999523,
+            "z": -0.165641889
+          }
+        },
+        {
+          "Position": {
+            "x": 2.00920749,
+            "y": 0.0499999523,
+            "z": 0.3302015
+          }
+        },
+        {
+          "Position": {
+            "x": 1.64164257,
+            "y": 0.0499999523,
+            "z": 0.330192119
+          }
+        },
+        {
+          "Position": {
+            "x": 1.28821218,
+            "y": 0.0499999523,
+            "z": 0.316031
+          }
+        },
+        {
+          "Position": {
+            "x": 0.8994417,
+            "y": 0.0499999523,
+            "z": 0.330192029
+          }
+        },
+        {
+          "Position": {
+            "x": 0.517733634,
+            "y": 0.0499999523,
+            "z": 0.316021949
+          }
+        },
+        {
+          "Position": {
+            "x": 0.164303243,
+            "y": 0.0499999523,
+            "z": 0.330192
+          }
+        },
+        {
+          "Position": {
+            "x": -0.224467561,
+            "y": 0.0499999523,
+            "z": 0.337272674
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5849694,
+            "y": 0.0499999523,
+            "z": 0.3231026
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9525339,
+            "y": 0.0499999523,
+            "z": 0.330183268
+          }
+        },
+        {
+          "Position": {
+            "x": -1.33424175,
+            "y": 0.0499999523,
+            "z": 0.330183238
+          }
+        },
+        {
+          "Position": {
+            "x": -1.70110047,
+            "y": 0.0499999523,
+            "z": 0.319313854
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 10.0,
+        "posY": 1.00999987,
+        "posZ": -12.0,
+        "rotX": -1.46028123E-08,
+        "rotY": 180.0006,
+        "rotZ": -5.958591E-08,
+        "scaleX": 2.548663,
+        "scaleY": 1.0,
+        "scaleZ": 2.548663
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/noisypine/tts-modules/master/Qwixx/qwixx-card.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f78118",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 2.009522,
+            "y": 0.049999956,
+            "z": -1.11072052
+          }
+        },
+        {
+          "Position": {
+            "x": 1.64902461,
+            "y": 0.049999956,
+            "z": -1.12488568
+          }
+        },
+        {
+          "Position": {
+            "x": 1.26024926,
+            "y": 0.049999956,
+            "z": -1.12489915
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9138864,
+            "y": 0.049999956,
+            "z": -1.12490261
+          }
+        },
+        {
+          "Position": {
+            "x": 0.518048346,
+            "y": 0.0499999523,
+            "z": -1.11782563
+          }
+        },
+        {
+          "Position": {
+            "x": 0.143412173,
+            "y": 0.0499999523,
+            "z": -1.13199091
+          }
+        },
+        {
+          "Position": {
+            "x": -0.217089623,
+            "y": 0.0499999523,
+            "z": -1.13200366
+          }
+        },
+        {
+          "Position": {
+            "x": -0.58465457,
+            "y": 0.0499999523,
+            "z": -1.13200748
+          }
+        },
+        {
+          "Position": {
+            "x": -1.0017029,
+            "y": 0.04999995,
+            "z": -1.1036799
+          }
+        },
+        {
+          "Position": {
+            "x": -1.31272137,
+            "y": 0.04999995,
+            "z": -1.12493432
+          }
+        },
+        {
+          "Position": {
+            "x": -1.70856357,
+            "y": 0.04999995,
+            "z": -1.11785769
+          }
+        },
+        {
+          "Position": {
+            "x": 2.02365112,
+            "y": 0.049999956,
+            "z": -0.6361464
+          }
+        },
+        {
+          "Position": {
+            "x": 1.641948,
+            "y": 0.049999956,
+            "z": -0.6432401
+          }
+        },
+        {
+          "Position": {
+            "x": 1.26024425,
+            "y": 0.049999956,
+            "z": -0.6432441
+          }
+        },
+        {
+          "Position": {
+            "x": 0.8856081,
+            "y": 0.049999956,
+            "z": -0.650328636
+          }
+        },
+        {
+          "Position": {
+            "x": 0.510971665,
+            "y": 0.0499999523,
+            "z": -0.636171043
+          }
+        },
+        {
+          "Position": {
+            "x": 0.1504699,
+            "y": 0.0499999523,
+            "z": -0.643255532
+          }
+        },
+        {
+          "Position": {
+            "x": -0.210027725,
+            "y": 0.0499999523,
+            "z": -0.6503489
+          }
+        },
+        {
+          "Position": {
+            "x": -0.577592254,
+            "y": 0.0499999523,
+            "z": -0.6503528
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9593003,
+            "y": 0.04999995,
+            "z": -0.6503567
+          }
+        },
+        {
+          "Position": {
+            "x": -1.33393681,
+            "y": 0.04999995,
+            "z": -0.629118741
+          }
+        },
+        {
+          "Position": {
+            "x": -1.7085731,
+            "y": 0.04999995,
+            "z": -0.6291227
+          }
+        },
+        {
+          "Position": {
+            "x": 2.00244045,
+            "y": 0.049999956,
+            "z": -0.154491991
+          }
+        },
+        {
+          "Position": {
+            "x": 1.64193821,
+            "y": 0.049999956,
+            "z": -0.133253545
+          }
+        },
+        {
+          "Position": {
+            "x": 1.25316763,
+            "y": 0.049999956,
+            "z": -0.147427991
+          }
+        },
+        {
+          "Position": {
+            "x": 0.8997372,
+            "y": 0.049999956,
+            "z": -0.147431657
+          }
+        },
+        {
+          "Position": {
+            "x": 0.510962,
+            "y": 0.0499999523,
+            "z": -0.1403553
+          }
+        },
+        {
+          "Position": {
+            "x": 0.157531649,
+            "y": 0.0499999523,
+            "z": -0.147439316
+          }
+        },
+        {
+          "Position": {
+            "x": -0.22417146,
+            "y": 0.0499999523,
+            "z": -0.154532969
+          }
+        },
+        {
+          "Position": {
+            "x": -0.584669,
+            "y": 0.0499999523,
+            "z": -0.168697774
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9663769,
+            "y": 0.04999995,
+            "z": -0.147459909
+          }
+        },
+        {
+          "Position": {
+            "x": -1.355148,
+            "y": 0.04999995,
+            "z": -0.161634371
+          }
+        },
+        {
+          "Position": {
+            "x": -1.69444382,
+            "y": 0.04999995,
+            "z": -0.154548168
+          }
+        },
+        {
+          "Position": {
+            "x": 2.009498,
+            "y": 0.049999956,
+            "z": 0.327153772
+          }
+        },
+        {
+          "Position": {
+            "x": 1.64193332,
+            "y": 0.049999956,
+            "z": 0.320069253
+          }
+        },
+        {
+          "Position": {
+            "x": 1.26023006,
+            "y": 0.049999956,
+            "z": 0.3200653
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9138665,
+            "y": 0.049999956,
+            "z": 0.3342228
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5250915,
+            "y": 0.0499999523,
+            "z": 0.3412995
+          }
+        },
+        {
+          "Position": {
+            "x": 0.150455445,
+            "y": 0.0499999523,
+            "z": 0.320044845
+          }
+        },
+        {
+          "Position": {
+            "x": -0.217109337,
+            "y": 0.0499999523,
+            "z": 0.341291815
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5917459,
+            "y": 0.0499999523,
+            "z": 0.334198266
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9875881,
+            "y": 0.04999995,
+            "z": 0.334194541
+          }
+        },
+        {
+          "Position": {
+            "x": -1.34808528,
+            "y": 0.04999995,
+            "z": 0.327100724
+          }
+        },
+        {
+          "Position": {
+            "x": -1.71565473,
+            "y": 0.04999995,
+            "z": 0.334187
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 22.0,
+        "posY": 1.01,
+        "posZ": -9.918688E-07,
+        "rotX": -6.61360744E-08,
+        "rotY": 90.0010452,
+        "rotZ": 2.42097027E-08,
+        "scaleX": 2.548663,
+        "scaleY": 1.0,
+        "scaleZ": 2.548663
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/noisypine/tts-modules/master/Qwixx/qwixx-card.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d2428b",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 2.02004886,
+            "y": 0.05000007,
+            "z": -1.13157523
+          }
+        },
+        {
+          "Position": {
+            "x": 1.64868629,
+            "y": 0.0500000753,
+            "z": -1.12482345
+          }
+        },
+        {
+          "Position": {
+            "x": 1.27080035,
+            "y": 0.0500000753,
+            "z": -1.13112521
+          }
+        },
+        {
+          "Position": {
+            "x": 0.8864033,
+            "y": 0.0500000753,
+            "z": -1.13090026
+          }
+        },
+        {
+          "Position": {
+            "x": 0.528063,
+            "y": 0.0500000753,
+            "z": -1.13720047
+          }
+        },
+        {
+          "Position": {
+            "x": 0.156695932,
+            "y": 0.0500000753,
+            "z": -1.136976
+          }
+        },
+        {
+          "Position": {
+            "x": -0.214669809,
+            "y": 0.0500000753,
+            "z": -1.13675177
+          }
+        },
+        {
+          "Position": {
+            "x": -0.579517663,
+            "y": 0.0500000753,
+            "z": -1.12999976
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9639108,
+            "y": 0.0500000753,
+            "z": -1.12324834
+          }
+        },
+        {
+          "Position": {
+            "x": -1.348309,
+            "y": 0.0500000753,
+            "z": -1.12300694
+          }
+        },
+        {
+          "Position": {
+            "x": -1.713161,
+            "y": 0.049999956,
+            "z": -1.12279809
+          }
+        },
+        {
+          "Position": {
+            "x": 2.02035356,
+            "y": 0.0500000678,
+            "z": -0.628883839
+          }
+        },
+        {
+          "Position": {
+            "x": 1.64898229,
+            "y": 0.0500000753,
+            "z": -0.6351853
+          }
+        },
+        {
+          "Position": {
+            "x": 1.25155485,
+            "y": 0.0500000753,
+            "z": -0.634944
+          }
+        },
+        {
+          "Position": {
+            "x": 0.8932145,
+            "y": 0.0500000753,
+            "z": -0.641261
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5218527,
+            "y": 0.0500000753,
+            "z": -0.63449347
+          }
+        },
+        {
+          "Position": {
+            "x": 0.1504856,
+            "y": 0.0500000753,
+            "z": -0.6342683
+          }
+        },
+        {
+          "Position": {
+            "x": -0.227396384,
+            "y": 0.0500000753,
+            "z": -0.6340433
+          }
+        },
+        {
+          "Position": {
+            "x": -0.585736632,
+            "y": 0.0500000753,
+            "z": -0.640360832
+          }
+        },
+        {
+          "Position": {
+            "x": -0.976641238,
+            "y": 0.05000007,
+            "z": -0.627067268
+          }
+        },
+        {
+          "Position": {
+            "x": -1.34150565,
+            "y": 0.0500000753,
+            "z": -0.6464208
+          }
+        },
+        {
+          "Position": {
+            "x": -1.699834,
+            "y": 0.05000007,
+            "z": -0.6331596
+          }
+        },
+        {
+          "Position": {
+            "x": 2.014123,
+            "y": 0.0500000678,
+            "z": -0.158823684
+          }
+        },
+        {
+          "Position": {
+            "x": 1.62321126,
+            "y": 0.05000007,
+            "z": -0.158582523
+          }
+        },
+        {
+          "Position": {
+            "x": 1.26486707,
+            "y": 0.05000007,
+            "z": -0.171426654
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9065337,
+            "y": 0.05000007,
+            "z": -0.164674655
+          }
+        },
+        {
+          "Position": {
+            "x": 0.528663933,
+            "y": 0.05000007,
+            "z": -0.144854248
+          }
+        },
+        {
+          "Position": {
+            "x": 0.150769934,
+            "y": 0.05000007,
+            "z": -0.164208829
+          }
+        },
+        {
+          "Position": {
+            "x": -0.233619854,
+            "y": 0.05000007,
+            "z": -0.150931537
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5789332,
+            "y": 0.05000007,
+            "z": -0.163774729
+          }
+        },
+        {
+          "Position": {
+            "x": -0.976360738,
+            "y": 0.05000007,
+            "z": -0.163533568
+          }
+        },
+        {
+          "Position": {
+            "x": -1.3151437,
+            "y": 0.05000007,
+            "z": -0.150271848
+          }
+        },
+        {
+          "Position": {
+            "x": -1.70605218,
+            "y": 0.05000007,
+            "z": -0.1435047
+          }
+        },
+        {
+          "Position": {
+            "x": 2.00790858,
+            "y": 0.0500000678,
+            "z": 0.337357432
+          }
+        },
+        {
+          "Position": {
+            "x": 1.63653326,
+            "y": 0.05000007,
+            "z": 0.324530333
+          }
+        },
+        {
+          "Position": {
+            "x": 1.25865948,
+            "y": 0.05000007,
+            "z": 0.3378077
+          }
+        },
+        {
+          "Position": {
+            "x": 0.893811345,
+            "y": 0.05000007,
+            "z": 0.34455955
+          }
+        },
+        {
+          "Position": {
+            "x": 0.515918434,
+            "y": 0.05000007,
+            "z": 0.3252057
+          }
+        },
+        {
+          "Position": {
+            "x": 0.1575783,
+            "y": 0.05000007,
+            "z": 0.318887383
+          }
+        },
+        {
+          "Position": {
+            "x": -0.226815775,
+            "y": 0.05000007,
+            "z": 0.325655341
+          }
+        },
+        {
+          "Position": {
+            "x": -0.591659665,
+            "y": 0.05000007,
+            "z": 0.3389338
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9565107,
+            "y": 0.05000007,
+            "z": 0.3391582
+          }
+        },
+        {
+          "Position": {
+            "x": -1.33439231,
+            "y": 0.05000007,
+            "z": 0.3393834
+          }
+        },
+        {
+          "Position": {
+            "x": -1.70575607,
+            "y": 0.05000007,
+            "z": 0.346134365
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 10.0,
+        "posY": 1.00999987,
+        "posZ": 12.0,
+        "rotX": 1.03057642E-08,
+        "rotY": 3.00754455E-05,
+        "rotZ": -2.81099261E-07,
+        "scaleX": 2.548663,
+        "scaleY": 1.0,
+        "scaleZ": 2.548663
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/noisypine/tts-modules/master/Qwixx/qwixx-card.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c085d3",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 2.00334835,
+            "y": 0.04999998,
+            "z": -1.114026
+          }
+        },
+        {
+          "Position": {
+            "x": 1.61011016,
+            "y": 0.04999997,
+            "z": -1.11625218
+          }
+        },
+        {
+          "Position": {
+            "x": 1.23181581,
+            "y": 0.0499999672,
+            "z": -1.11246371
+          }
+        },
+        {
+          "Position": {
+            "x": 0.8908764,
+            "y": 0.0499999635,
+            "z": -1.13708687
+          }
+        },
+        {
+          "Position": {
+            "x": 0.505370438,
+            "y": 0.04999996,
+            "z": -1.13297856
+          }
+        },
+        {
+          "Position": {
+            "x": 0.139046669,
+            "y": 0.0499999523,
+            "z": -1.12973821
+          }
+        },
+        {
+          "Position": {
+            "x": -0.231978744,
+            "y": 0.04999995,
+            "z": -1.12167323
+          }
+        },
+        {
+          "Position": {
+            "x": -0.6046861,
+            "y": 0.0499999449,
+            "z": -1.11562359
+          }
+        },
+        {
+          "Position": {
+            "x": -0.990808666,
+            "y": 0.05000006,
+            "z": -1.11604667
+          }
+        },
+        {
+          "Position": {
+            "x": -1.35707259,
+            "y": 0.0500000529,
+            "z": -1.12345946
+          }
+        },
+        {
+          "Position": {
+            "x": -1.71646547,
+            "y": 0.05000005,
+            "z": -1.11764669
+          }
+        },
+        {
+          "Position": {
+            "x": -1.74851787,
+            "y": 0.05000005,
+            "z": -0.630155146
+          }
+        },
+        {
+          "Position": {
+            "x": -1.36926579,
+            "y": 0.0500000529,
+            "z": -0.6429655
+          }
+        },
+        {
+          "Position": {
+            "x": -0.989582062,
+            "y": 0.05000006,
+            "z": -0.6290972
+          }
+        },
+        {
+          "Position": {
+            "x": -0.6102243,
+            "y": 0.0499999449,
+            "z": -0.6352401
+          }
+        },
+        {
+          "Position": {
+            "x": -0.23762694,
+            "y": 0.04999995,
+            "z": -0.6479405
+          }
+        },
+        {
+          "Position": {
+            "x": 0.141950473,
+            "y": 0.0499999523,
+            "z": -0.640739441
+          }
+        },
+        {
+          "Position": {
+            "x": 0.494794548,
+            "y": 0.04999996,
+            "z": -0.639783561
+          }
+        },
+        {
+          "Position": {
+            "x": 0.89412117,
+            "y": 0.0499999635,
+            "z": -0.646247447
+          }
+        },
+        {
+          "Position": {
+            "x": 1.26682484,
+            "y": 0.0499999672,
+            "z": -0.6522803
+          }
+        },
+        {
+          "Position": {
+            "x": 1.63985288,
+            "y": 0.0499999747,
+            "z": -0.638301969
+          }
+        },
+        {
+          "Position": {
+            "x": 2.01277542,
+            "y": 0.04999998,
+            "z": -0.630999148
+          }
+        },
+        {
+          "Position": {
+            "x": 2.01356649,
+            "y": 0.04999998,
+            "z": -0.170720264
+          }
+        },
+        {
+          "Position": {
+            "x": 1.62765968,
+            "y": 0.04999997,
+            "z": -0.157808036
+          }
+        },
+        {
+          "Position": {
+            "x": 1.248192,
+            "y": 0.0499999672,
+            "z": -0.158332855
+          }
+        },
+        {
+          "Position": {
+            "x": 0.888798833,
+            "y": 0.0499999635,
+            "z": -0.15251182
+          }
+        },
+        {
+          "Position": {
+            "x": 0.502782047,
+            "y": 0.04999996,
+            "z": -0.146267608
+          }
+        },
+        {
+          "Position": {
+            "x": 0.129753247,
+            "y": 0.0499999523,
+            "z": -0.1602373
+          }
+        },
+        {
+          "Position": {
+            "x": -0.24294965,
+            "y": 0.04999995,
+            "z": -0.1542131
+          }
+        },
+        {
+          "Position": {
+            "x": -0.589032531,
+            "y": 0.0499999449,
+            "z": -0.1486031
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9749397,
+            "y": 0.05000006,
+            "z": -0.13569127
+          }
+        },
+        {
+          "Position": {
+            "x": -1.35440791,
+            "y": 0.0500000529,
+            "z": -0.136216074
+          }
+        },
+        {
+          "Position": {
+            "x": -1.72732651,
+            "y": 0.05000005,
+            "z": -0.143526748
+          }
+        },
+        {
+          "Position": {
+            "x": -1.7211231,
+            "y": 0.05000005,
+            "z": 0.324017
+          }
+        },
+        {
+          "Position": {
+            "x": -1.33478427,
+            "y": 0.0500000566,
+            "z": 0.337775648
+          }
+        },
+        {
+          "Position": {
+            "x": -0.962081432,
+            "y": 0.05000006,
+            "z": 0.331742823
+          }
+        },
+        {
+          "Position": {
+            "x": -0.602578342,
+            "y": 0.0499999449,
+            "z": 0.33258906
+          }
+        },
+        {
+          "Position": {
+            "x": -0.2032476,
+            "y": 0.04999995,
+            "z": 0.326124817
+          }
+        },
+        {
+          "Position": {
+            "x": 0.149490952,
+            "y": 0.049999956,
+            "z": 0.320421666
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5184946,
+            "y": 0.04999996,
+            "z": 0.3276863
+          }
+        },
+        {
+          "Position": {
+            "x": 0.8979665,
+            "y": 0.0499999635,
+            "z": 0.328211129
+          }
+        },
+        {
+          "Position": {
+            "x": 1.25757134,
+            "y": 0.0499999672,
+            "z": 0.33573395
+          }
+        },
+        {
+          "Position": {
+            "x": 1.650243,
+            "y": 0.0499999747,
+            "z": 0.32937935
+          }
+        },
+        {
+          "Position": {
+            "x": 1.98290658,
+            "y": 0.04999998,
+            "z": 0.317321777
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -10.0,
+        "posY": 1.00999987,
+        "posZ": 12.0,
+        "rotX": -1.449838E-08,
+        "rotY": 8.0802226E-10,
+        "rotZ": -5.533366E-08,
+        "scaleX": 2.548663,
+        "scaleY": 1.0,
+        "scaleZ": 2.548663
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/noisypine/tts-modules/master/Qwixx/qwixx-card.png",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "Stackable": false
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9bb3bc",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 2.01601267,
+            "y": 0.049999956,
+            "z": -1.13715243
+          }
+        },
+        {
+          "Position": {
+            "x": 1.6434114,
+            "y": 0.049999956,
+            "z": -1.12445188
+          }
+        },
+        {
+          "Position": {
+            "x": 1.24397874,
+            "y": 0.049999956,
+            "z": -1.12466288
+          }
+        },
+        {
+          "Position": {
+            "x": 0.877604961,
+            "y": 0.049999956,
+            "z": -1.13874316
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5118788,
+            "y": 0.0499999523,
+            "z": -1.1128087
+          }
+        },
+        {
+          "Position": {
+            "x": 0.138849631,
+            "y": 0.0499999523,
+            "z": -1.12678719
+          }
+        },
+        {
+          "Position": {
+            "x": -0.233746991,
+            "y": 0.0499999523,
+            "z": -1.11408651
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5931363,
+            "y": 0.0499999523,
+            "z": -1.10826492
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9924633,
+            "y": 0.04999995,
+            "z": -1.10180008
+          }
+        },
+        {
+          "Position": {
+            "x": -1.35862124,
+            "y": 0.04999995,
+            "z": -1.10254478
+          }
+        },
+        {
+          "Position": {
+            "x": -1.73852015,
+            "y": 0.04999995,
+            "z": -1.12974846
+          }
+        },
+        {
+          "Position": {
+            "x": -1.71383584,
+            "y": 0.04999995,
+            "z": -0.6469076
+          }
+        },
+        {
+          "Position": {
+            "x": -1.34768987,
+            "y": 0.04999995,
+            "z": -0.644039869
+          }
+        },
+        {
+          "Position": {
+            "x": -0.974957764,
+            "y": 0.04999995,
+            "z": -0.6479063
+          }
+        },
+        {
+          "Position": {
+            "x": -0.588978767,
+            "y": 0.0499999523,
+            "z": -0.65857625
+          }
+        },
+        {
+          "Position": {
+            "x": -0.22283347,
+            "y": 0.0499999523,
+            "z": -0.655699134
+          }
+        },
+        {
+          "Position": {
+            "x": 0.1433118,
+            "y": 0.0499999523,
+            "z": -0.6528306
+          }
+        },
+        {
+          "Position": {
+            "x": 0.522767246,
+            "y": 0.0499999523,
+            "z": -0.6500897
+          }
+        },
+        {
+          "Position": {
+            "x": 0.8930611,
+            "y": 0.049999956,
+            "z": -0.640978634
+          }
+        },
+        {
+          "Position": {
+            "x": 1.2524159,
+            "y": 0.049999956,
+            "z": -0.651378036
+          }
+        },
+        {
+          "Position": {
+            "x": 1.63194311,
+            "y": 0.049999956,
+            "z": -0.64197737
+          }
+        },
+        {
+          "Position": {
+            "x": 2.018125,
+            "y": 0.049999956,
+            "z": -0.6326358
+          }
+        },
+        {
+          "Position": {
+            "x": 1.98975813,
+            "y": 0.049999956,
+            "z": -0.158750728
+          }
+        },
+        {
+          "Position": {
+            "x": 1.61702549,
+            "y": 0.049999956,
+            "z": -0.154883876
+          }
+        },
+        {
+          "Position": {
+            "x": 1.23756611,
+            "y": 0.049999956,
+            "z": -0.157616571
+          }
+        },
+        {
+          "Position": {
+            "x": 0.878211141,
+            "y": 0.049999956,
+            "z": -0.14722617
+          }
+        },
+        {
+          "Position": {
+            "x": 0.49868387,
+            "y": 0.0499999523,
+            "z": -0.156626463
+          }
+        },
+        {
+          "Position": {
+            "x": 0.159023136,
+            "y": 0.0499999523,
+            "z": -0.173118353
+          }
+        },
+        {
+          "Position": {
+            "x": -0.220431939,
+            "y": 0.0499999523,
+            "z": -0.175851032
+          }
+        },
+        {
+          "Position": {
+            "x": -0.586441755,
+            "y": 0.0499999523,
+            "z": -0.1653843
+          }
+        },
+        {
+          "Position": {
+            "x": -0.95910424,
+            "y": 0.04999995,
+            "z": -0.154849455
+          }
+        },
+        {
+          "Position": {
+            "x": -1.33176935,
+            "y": 0.04999995,
+            "z": -0.144314989
+          }
+        },
+        {
+          "Position": {
+            "x": -1.724608,
+            "y": 0.04999995,
+            "z": -0.153580219
+          }
+        },
+        {
+          "Position": {
+            "x": -1.706317,
+            "y": 0.04999995,
+            "z": 0.326489776
+          }
+        },
+        {
+          "Position": {
+            "x": -1.32027245,
+            "y": 0.04999995,
+            "z": 0.322487861
+          }
+        },
+        {
+          "Position": {
+            "x": -0.9541949,
+            "y": 0.04999995,
+            "z": 0.318688363
+          }
+        },
+        {
+          "Position": {
+            "x": -0.594497263,
+            "y": 0.0499999523,
+            "z": 0.341644675
+          }
+        },
+        {
+          "Position": {
+            "x": -0.21531719,
+            "y": 0.0499999523,
+            "z": 0.317698628
+          }
+        },
+        {
+          "Position": {
+            "x": 0.150832191,
+            "y": 0.0499999523,
+            "z": 0.320575744
+          }
+        },
+        {
+          "Position": {
+            "x": 0.523771942,
+            "y": 0.0499999523,
+            "z": 0.3367204
+          }
+        },
+        {
+          "Position": {
+            "x": 0.9030244,
+            "y": 0.049999956,
+            "z": 0.319441974
+          }
+        },
+        {
+          "Position": {
+            "x": 1.28255153,
+            "y": 0.049999956,
+            "z": 0.328851253
+          }
+        },
+        {
+          "Position": {
+            "x": 1.64862907,
+            "y": 0.049999956,
+            "z": 0.3250514
+          }
+        },
+        {
+          "Position": {
+            "x": 2.01477432,
+            "y": 0.049999956,
+            "z": 0.3279285
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 21.0,
+        "posY": 0.925150037,
+        "posZ": -11.0,
+        "rotX": -2.01041644E-07,
+        "rotY": 1.02952881E-05,
+        "rotZ": 1.47455125E-07,
+        "scaleX": 2.04999924,
+        "scaleY": 2.04999924,
+        "scaleZ": 2.04999924
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 13.4546862,
+            "posY": 3.07069921,
+            "posZ": 4.32964373,
+            "rotX": 2.39686584,
+            "rotY": 90.03782,
+            "rotZ": 353.4165,
+            "scaleX": 0.215356961,
+            "scaleY": 1.0,
+            "scaleZ": 0.215356961
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/Qwixx/x.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 10.0333462,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f64bf6"
+        }
+      ],
+      "GUID": "2c0d0f"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": -21.0,
+        "posY": 0.925150037,
+        "posZ": -11.0,
+        "rotX": -1.905549E-07,
+        "rotY": 1.0120134E-05,
+        "rotZ": 5.81809019E-08,
+        "scaleX": 2.04999924,
+        "scaleY": 2.04999924,
+        "scaleZ": 2.04999924
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 13.4546862,
+            "posY": 3.07069921,
+            "posZ": 4.32964373,
+            "rotX": 2.39686584,
+            "rotY": 90.03782,
+            "rotZ": 353.4165,
+            "scaleX": 0.215356961,
+            "scaleY": 1.0,
+            "scaleZ": 0.215356961
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/Qwixx/x.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 10.0333462,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f64bf6"
+        }
+      ],
+      "GUID": "ba96aa"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 21.0,
+        "posY": 0.925150037,
+        "posZ": 11.0,
+        "rotX": -1.78235709E-07,
+        "rotY": 1.0304555E-05,
+        "rotZ": 1.01364868E-07,
+        "scaleX": 2.04999924,
+        "scaleY": 2.04999924,
+        "scaleZ": 2.04999924
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 13.4546862,
+            "posY": 3.07069921,
+            "posZ": 4.32964373,
+            "rotX": 2.39686584,
+            "rotY": 90.03782,
+            "rotZ": 353.4165,
+            "scaleX": 0.215356961,
+            "scaleY": 1.0,
+            "scaleZ": 0.215356961
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/Qwixx/x.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 10.0333462,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f64bf6"
+        }
+      ],
+      "GUID": "edb0ae"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": -21.0,
+        "posY": 0.9251503,
+        "posZ": 11.0,
+        "rotX": -9.303749E-08,
+        "rotY": 9.791057E-06,
+        "rotZ": 2.728969E-08,
+        "scaleX": 2.04999924,
+        "scaleY": 2.04999924,
+        "scaleZ": 2.04999924
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 13.4546862,
+            "posY": 3.07069921,
+            "posZ": 4.32964373,
+            "rotX": 2.39686584,
+            "rotY": 90.03782,
+            "rotZ": 353.4165,
+            "scaleX": 0.215356961,
+            "scaleY": 1.0,
+            "scaleZ": 0.215356961
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://github.com/noisypine/tts-modules/raw/master/Qwixx/x.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 10.0333462,
+              "Stackable": false
+            }
+          },
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f64bf6"
+        }
+      ],
+      "GUID": "14a5d6"
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v12.3.1"
+}
